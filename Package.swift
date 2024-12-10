@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "QRCodeReader",
-  platforms: [.iOS(.v18)],
+  platforms: [.iOS(.v18), .macOS(.v15_1)],
   products: [
     .library(name: "QRCodeReader", targets: ["QRCodeReader"]),
   ],
